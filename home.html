@@ -11,7 +11,7 @@
 	background: #61122f;
 	font-family: 'Oxygen', sans-serif;
 }
-#header_nav {
+#header-nav {
 	background-color: #f6b319;
 	border-radius: 0;
 	border: 0;
@@ -19,8 +19,55 @@
 #skill {
 	color: green;
 }
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-toggle {
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 4px;
 
-	</style>
+}
+#nav-list {
+	margin-top: 10px;
+
+}
+#nav-list a {
+	color: #951C49;
+
+}
+nav-list a:hover {
+	background: #E7E7E7;
+}
+nav-list a span {
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+</style>
+
 
 </head>
 <body>
@@ -28,13 +75,47 @@
 	<nav id="header-nav" class="navbar navbar-default">
 		<div class="container">
 			<div class="header-nav">
-				<a href="https://lh3.googleusercontent.com/znu0UVC8-IZTFrF8nZfqYAvptikGVX6eUiHrKNaJLM6HE5cnBWG_mKdVKjOdEbY3vFCSHJJaR_HGZMnjDkerWv-gm0C6sjy2YqiZ8fdH4D6az0e3NBn4VdE8Jt6RWN_d9AXMESSbHg=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/znu0UVC8-IZTFrF8nZfqYAvptikGVX6eUiHrKNaJLM6HE5cnBWG_mKdVKjOdEbY3vFCSHJJaR_HGZMnjDkerWv-gm0C6sjy2YqiZ8fdH4D6az0e3NBn4VdE8Jt6RWN_d9AXMESSbHg=w600-h315-p-k" width="200px" height="100px" /></a>
+				<a href="https://lh3.googleusercontent.com/znu0UVC8-IZTFrF8nZfqYAvptikGVX6eUiHrKNaJLM6HE5cnBWG_mKdVKjOdEbY3vFCSHJJaR_HGZMnjDkerWv-gm0C6sjy2YqiZ8fdH4D6az0e3NBn4VdE8Jt6RWN_d9AXMESSbHg=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/znu0UVC8-IZTFrF8nZfqYAvptikGVX6eUiHrKNaJLM6HE5cnBWG_mKdVKjOdEbY3vFCSHJJaR_HGZMnjDkerWv-gm0C6sjy2YqiZ8fdH4D6az0e3NBn4VdE8Jt6RWN_d9AXMESSbHg=w600-h315-p-k" width="200px" height="100px" class="pull-left" /></a>
 				</div>
+				<div class="navbar-brand">
+					<a href="home.html"><h1>Data Science Professional</h1></a>
+					
+				</div>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+					<span class="sr-only"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 			</div>
+			<div id="collapsable-nav" class="collapse navbar-collapse">
+				<ul id="nav-list" class="nav navbar-nav navbar-right">
+					<li>
+						<a href="home.html"><span class="glyphicon glyphicon-home"></span>
+							<br class="hidden-xs"> Home</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="glyphicon glyphicon-info-sign"></span>
+							<br class="hidden-xs"> About</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="glyphicon glyphicon-info-certificate"></span>
+							<br class="hidden-xs"> Resume</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="glyphicon glyphicon-star-empty"></span>
+							<br class="hidden-xs"> Projects</a>
+					</li>
+					
+				</ul>
+				
+			</div>
+
 		</nav>
 </header>
-<h1><i>OPUMIE COLLINS EBITIMI</i></h1>
-<h2 id="skill">EXPERIENCED PYTHON DEVELOPER</h2>
 <p>
 	<h2>Professional Summary</h2>
 	 I am a data scientist certified with IBM Data Science Professional Certificate<br>I am skilled in Python Programming Language, SQL, PHP, Laravel Framework, Django Framework, Git, Github, MYSQL, Jupyter Notebook, HTML, CSS, JavaScript, Bash, and Docker.
